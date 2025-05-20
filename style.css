@@ -1,0 +1,118 @@
+@font-face {
+    font-family: kurale;
+    src: url(fonts/Kurale/Kurale-Regular.ttf);
+}
+@font-face {
+    font-family: wid;
+    src: url(fonts/wid.ttf);
+}
+@font-face {
+    font-family: zeyada;
+    src: url(fonts/Zeyada-Regular.ttf);
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #e4e9db;
+}
+.name-deinition{
+    font-family: kurale;
+    width: 25vw;
+    background-color: white;
+    padding: 1em;
+    z-index: 1;
+    margin-top: -18em;
+    margin-left: 46em;
+    margin-bottom: 9em;
+}
+.heading-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.498), rgba(0, 0, 0, 0.5)), url('images/Screenshot\ from\ 2025-05-19\ 21-33-05.png');
+    background-position: center; 
+    height: 50vh;
+    width: 100vw; 
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #A0AC8A;
+}
+.brand{
+    display: flex;
+    gap: 2em;
+}
+.navigation h2 {
+    color: rgb(255, 255, 255);
+    font-family: wid;
+    margin-bottom: 1em;
+    margin-left: -1em;
+}
+.brand img{
+    width:4em;
+    height: 4em;
+    margin-left: -27em;
+    margin-bottom: -8em;
+}
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 0em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: wid;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.welcome{
+    text-align: center;
+    margin-top: 6em;
+    h1{
+        font-family: zeyada;
+        font-size: 350%;
+        color: rgb(19, 44, 30);
+    }
+    p{
+        font-family: kurale;
+        width: 40em;
+        margin: 0 auto;
+        margin-bottom: 8em;
+    }
+}
+.key-three{
+    display: flex;
+    font-family: kurale;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+.feedback{
+    padding: 2em;
+    border: 1px solid white;
+    width: 20vw;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.342);
+    transition: transform 0.3s ease-in-out;
+}
+.feedback img{
+    width: 10vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 150em;
+}
+.feedback:hover{
+    background-color: #d3c2d3;
+    transform: scale(1.07); 
+    color: black;
+    border: 1px solid #A0AC8A;
+}
