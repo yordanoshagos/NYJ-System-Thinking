@@ -33,9 +33,11 @@ body {
 
 .heading-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.498), rgba(0, 0, 0, 0.5)), url('images/Screenshot\ from\ 2025-05-19\ 21-33-05.png');
-    background-position: center;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 50vh;
-    width: 100vw;
+    /* width: 100vw;  */
 }
 
 .navigation {
@@ -52,6 +54,7 @@ body {
 .brand {
     display: flex;
     gap: 2em;
+    background-size: 100%;
 }
 
 .navigation h2 {
